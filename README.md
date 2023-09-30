@@ -42,3 +42,6 @@ The admin can view details for a specific order, including details such as the o
 3. Other <br/>
 The implementation of the feature to send daily order PDFs via email. <br/>
 ![](./screenshots/pdf%20mail.png)
+
+
+© [This project is my personal work.]
