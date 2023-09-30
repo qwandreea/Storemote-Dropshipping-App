@@ -1,0 +1,321 @@
+body{
+    height: auto;
+    margin-top: 10%;
+}
+
+p {
+    color: grey
+}
+
+#heading {
+    text-transform: uppercase;
+    color: #886f4a;
+    font-weight: bold;
+}
+
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    position: relative
+}
+
+.form-card {
+    text-align: left
+}
+
+#msform fieldset:not(:first-of-type) {
+    display: none
+}
+
+#msform input,
+#msform textarea {
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 25px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    letter-spacing: 1px
+}
+
+#msform input:focus,
+#msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 2px solid tan;
+    outline-width: 0
+}
+
+#msform .action-button {
+    width: 100px;
+    background:  green;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 0px 10px 5px;
+    float: right
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+    background-color: #311B92
+}
+
+#msform .action-button-previous {
+    width: 100px;
+    background: #616161;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px 10px 0px;
+    float: right
+}
+
+#msform .action-button-previous:hover,
+#msform .action-button-previous:focus {
+    background-color: #000000
+}
+
+.card {
+    z-index: 0;
+    border: none;
+    position: relative
+}
+
+.fs-title {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 15px;
+    font-weight: normal;
+    text-align: left
+}
+
+.purple-text {
+    color: black;
+    font-weight: normal
+}
+
+.steps {
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-align: right
+}
+
+.fieldlabels {
+    color: gray;
+    text-align: left
+}
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: lightgrey
+}
+
+#progressbar .active {
+    color: #886f4a;
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 15px;
+    width: 25%;
+    float: left;
+    position: relative;
+    font-weight: 400
+}
+
+#progressbar #account:before {
+    font-family: FontAwesome;
+    content: "\f015"
+}
+
+#progressbar #personal:before {
+    font-family: FontAwesome;
+    content: "\f0d6"
+}
+
+#progressbar #payment:before {
+    font-family: FontAwesome;
+    content: "\f218"
+}
+
+#progressbar #confirm:before {
+    font-family: FontAwesome;
+    content: "\f00c"
+}
+
+#progressbar li:before {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px
+}
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: #886f4a;
+}
+
+.fit-image {
+    width: 100px;
+    height: 140px;
+   margin-left: auto;
+    margin-right: auto;
+}
+
+.label {
+    display: block;
+    position: relative;
+    color: black;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.label input {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.label:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.label input:checked ~ .checkmark {
+    background-color: blue;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.label input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.label .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.paypal-logo{
+    font-family: Verdana, Tahoma;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+i:first-child {
+    color: #253b80;
+}
+
+i:last-child {
+    color: #179bd7;
+}
+
+.paypal-button {
+     padding: 15px 30px;
+     border: 1px solid #FF9933;
+     border-radius: 5px;
+     background-image: linear-gradient(#FFF0A8, #F9B421);
+     display: block;
+     min-width: 138px;
+}
+
+.paypal-title {
+     font-size: 14px;
+     color: #505050;
+     text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);
+ }
+
+.paypal-logo {
+    display: inline-block;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);
+    font-size: 20px;
+}
+label[for=cupon]
+{
+    font-family: Georgia, serif;
+    font-size: 16px;
+    letter-spacing: -0.8px;
+    word-spacing: 0.4px;
+    color: #030310;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+}
+
+

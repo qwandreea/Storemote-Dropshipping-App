@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);.navbar-laravel {
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+body{
+    background-color: black;
+    color: white;
+}
+nav{
+    list-style: none;
+}
+nav .container>a{
+    text-decoration: none;
+    font-size: 3vh;
+    color: white;
+}
+nav .container>a:hover{
+    text-decoration: none;
+    font-size: 3vh;
+    color: #886f4a;
+}
+#nav-item>a{
+    text-decoration: none;
+    font-size: 2.5vh;
+    color: white;
+}
+#nav-item>a:hover{
+    font-size: 2.5vh;
+    color: #886f4a;
+}
+.card{
+    text-align: center;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: red;
+    border: 1px solid white;
+}
+#login-card{
+    border-radius: 10px;
+    color: white;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    position: relative;
+    justify-content: center;
+    background: #886f4a;
+    padding: 3px 5px 3px 5px;
+}
+#label-email{
+    font-size: large;
+    margin-top: 2%;
+}
+#label-parola{
+    font-size: large;
+}
+#password,#email{
+    width: 80%;
+    height: 30px;
+    border-radius: 3px;
+    padding-top: 10px;
+    background-color: white;
+    border-color: white;
+}
+#forgot-password{
+    text-decoration: none;
+}
+#btn-submit-login{
+    width: 30%;
+    min-width: 100px;
+    background: #886f4a;
+    border: none;
+    min-height: 38px;
+    border-radius: 5px;
+    line-height: normal;
+    font-size: medium;
+    color: white;
+}
+#nume,#prenume,#telefon,#data_nastere,#password-confirm,#file{
+    width: 80%;
+    height: 30px;
+    border-radius: 3px;
+    padding-top: 10px;
+    background-color: white;
+    border-color: white;
+}

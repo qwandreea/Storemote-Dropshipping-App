@@ -1,0 +1,462 @@
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    background:white;
+    height: auto;
+    margin-top:9%;
+}
+
+
+.produs-imagine{
+    float:left; width:auto;
+    margin-top:10rem;
+
+}
+
+.product_detail_view {
+    float:left;
+    width:100%;
+    padding:20px;
+    box-shadow:0 0 3px #aaa;
+    padding:10px; margin-top:5rem;
+}
+
+.product-box{
+    padding-top: 1rem;
+}
+
+.produs-denumire{
+    float:left;
+    width:100%;
+    font-size:45px;
+    font-weight:normal;
+    font-family: 'Allerta', sans-serif;
+}
+
+.produs-categorie{
+    float:left;
+    width:100%;
+    font-size:18px;
+    margin:10px 0;
+    position:relative;
+}
+
+
+ #instoc{
+    color: green;
+     font-size:18px;
+     font-weight:500;
+     font-style:normal;
+     text-decoration:none !important;
+}
+
+ #nustoc{
+     color: red;
+     font-size:18px;
+     font-weight:500;
+     font-style:normal;
+     text-decoration:none !important;
+ }
+
+.produs-pret{
+    float:left;
+    width:100%;
+    margin:10px 0;
+    padding-left:10%;
+    font-size:25px;
+    font-style:italic;
+}
+
+.color_quantity{
+    width:80%;
+    float:left;
+    margin-left:10%;
+    border-top:1px solid #aaa;
+    border-bottom:1px solid #aaa;
+    height:70px; padding:10px;
+    margin-bottom:30px;
+}
+
+.color{width:35%; float:left;}
+
+
+.slash{
+    float: left;
+    width: 2%;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    padding-left: 6%;
+    line-height: 0.6;
+}
+
+.quantity {
+    position: relative;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]
+{
+    -moz-appearance: textfield;
+}
+
+.quantity input {
+    width: 50px;
+    padding-right: 2px;
+    height: 42px;
+    line-height: 1.65;
+    float: left;
+    display: block;
+    padding: 0;
+    padding-left: 10px;
+    border: 1px solid bisque;
+}
+
+.quantity-nav {
+    float: left;
+    position: relative;
+    height: 42px;
+}
+
+.quantity-button {
+    position: relative;
+    cursor: pointer;
+    border-left: 1px solid #eee;
+    width: 20px;
+    text-align: center;
+    color: #333;
+    font-size: 13px;
+    line-height: 1.7;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.quantity-button.quantity-up {
+    position: absolute;
+    height: 50%;
+    top: 0;
+    border-bottom: 1px solid #eee;
+}
+
+.quantity-button.quantity-down {
+    position: absolute;
+    bottom: -1px;
+    height: 50%;
+}
+#text{
+    color: black;
+    font-size: medium;
+}
+
+.favorite{
+    padding-left: 30px;
+    width: 40%;
+    float: left;
+}
+#addFavorite{
+    background: url('imagini/images_frontend/wishlist.png') ;
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+#favorite-text{
+    color: cornflowerblue;
+    font-weight: bold;
+}
+ul>li.nav-item>a{
+    color: cornflowerblue;
+    font-weight: bold;
+}
+* {
+    box-sizing: border-box;
+}
+.form-review{
+    margin-top: -2%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+}
+
+#titlu, select, textarea {
+    width: 80%;
+    padding-left: 12px;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background-color: white;
+    color: black;
+}
+#country{
+    color: black;
+}
+#subject{
+    color: black;
+}
+label {
+    padding-left: 80%;
+    display: block;
+}
+
+#add-review {
+    background-color: bisque;
+    color: black;
+    padding: 0 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2:before,
+h2:after {
+    content: '';
+    border-top: 2px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+h2:after {
+    margin: 0 0 0 20px;
+}
+
+h2 {
+    margin: 30px 0;
+    color: black;
+}
+.produse-asociate {
+    overflow: hidden;
+    width: 60%;
+    margin-left: 20%;
+    border: 2px double black;
+    text-align: center;
+}
+
+#produse-asociate-carousel .carousel-inner .item {
+    padding-left: 0;
+}
+
+.produse-asociate-control {
+    position: relative;
+}
+
+
+.produse-asociate-control i {
+    background: none repeat scroll 0 0 #886f4a;
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 4px 10px;
+}
+
+.produse-asociate-control i:hover {
+    background: #ccccc6;
+}
+
+.infoprod>img{
+    margin-top: 5%;
+    width: 150px;
+    height: 150px;
+}
+.infoprod>p{
+    color: black;
+    font-weight: bold;
+}
+.infoprod a,button{
+    width: auto;
+    height: 50px;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+/*COS CUMPARATURI*/
+.container-cos{
+    list-style: none;
+    padding-top: 0%;
+    margin-top: 0;
+}
+
+.table{
+    margin-top: 5%;
+}
+
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+
+.total{
+   font-weight: bold;
+    font-size: large;
+    text-decoration: underline;
+}
+
+.header{
+   font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+        width:20%;
+        display: inline !important;
+    }
+    .actions .btn{
+        width:40%;
+        margin:1.5em 0;
+    }
+
+    .actions .btn-info{
+        float:left;
+    }
+    .actions .btn-danger{
+        float:right;
+    }
+
+    table#cart thead { display: none; }
+    table#cart tbody td { display: block; padding: .6rem; min-width:300px;}
+    table#cart tbody tr td:first-child { background: #333; color: #fff; }
+    table#cart tbody td:before {
+        content: attr(data-th); font-weight: bold;
+        display: inline-block; width: 8rem;
+    }
+
+    table#cart tfoot td{display:block; }
+    table#cart tfoot td .btn{display:block;}
+}
+.text-center>p{
+    font-size: 16px;
+}
+.cantitate{
+    background-color: white;
+}
+
+table>tbody>tr>td .cantitate{
+    background-color: white;
+    height: 28px;
+    border: 1px solid black;
+    margin-top: 0px;
+    color: black;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+}
+
+table>tbody>tr>td .cantitate:hover{
+   border: 2px solid cornflowerblue;
+}
+
+table>tbody>tr>td .plus{
+    background-color: white;
+    color: black;
+    width: 5rem;
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 1px 1px 1px 1px;
+}
+
+table>tbody>tr>td .plus:hover{
+    border: 2px solid cornflowerblue;
+    background-color: white;
+    color: black;
+}
+
+table>tbody>tr>td .minus{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    width: 5rem;
+    border: 2px solid black;
+    padding: 1px 1px 1px 1px;
+}
+
+table>tbody>tr>td .minus:hover{
+    border: 2px solid cornflowerblue;
+    background-color: white;
+    color: black;
+}
+
+table>tbody>tr .butoncantitate a{
+    background-color:tan;
+    color: black;
+    display: inline-block;
+    font-size: 16px;
+    height: 28px;
+    overflow: hidden;
+    text-align: center;
+    width: 35px;
+    float: left;
+}
+.cos-gol{
+    font-size: 30px;
+    color: red;
+}
+.avatar{
+    width: 30px;
+    height: 30px;
+}
+.stars-container {
+    position: relative;
+    display: inline-block;
+    color: transparent;
+}
+
+.stars-container:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '★★★★★';
+    color: lightgray;
+}
+
+.stars-container:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '★★★★★';
+    color: gold;
+    overflow: hidden;
+}
+
+.stars-0:after { width: 0%; }
+.stars-1:after { width: 20%; }
+.stars-2:after { width: 40%; }
+.stars-3:after { width: 60%; }
+.stars-4:after { width: 80%; }
+.stars-5:after { width: 100%; }
+
+

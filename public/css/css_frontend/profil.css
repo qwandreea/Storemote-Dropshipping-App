@@ -1,0 +1,105 @@
+body{
+    background-color: white;
+    width: auto;
+     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#main-content{
+    margin-top: 9%;
+}
+.img-profile {
+    width: 9em;
+    height: 9em;
+    z-index: -1;
+}
+
+.card {
+    z-index: 9;
+    position: relative;
+    margin-left: 7%;
+    text-align: center;
+    z-index: 1;
+    margin-top:0;
+}
+
+.card-title {
+    position: relative;
+    margin-top: 10%;
+}
+
+.fa {
+    margin-top: 0;
+}
+
+.card-img>div{
+    width: 80%;
+    height: 30px;
+    border: 1px solid #886f4a;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+}
+
+.card-img>div .btnedit{
+        position: relative;
+        background-color: white;
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        text-decoration: none;
+        color: #886f4a;
+}
+
+.card-link {
+    color: #816452;
+}
+
+.card-img {
+    border: 1px solid rgba(122, 97, 97, 0.795);
+    -webkit-background-clip: padding-box;
+    /* for Safari */
+    background-clip: padding-box;
+    /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+
+.card-img:focus {
+    border: none;
+}
+.form-group .col-lg-20 .form-control{
+    background-color: white;
+    margin-left: 30%;
+    width: 50%;
+    color: black;
+}
+
+h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2:before,
+h2:after {
+    content: '';
+    border-top: 2px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+h2:after {
+    margin: 0 0 0 20px;
+}
+
+h2 {
+    margin: 30px 0;
+    color: black;
+}
+
+.thead-dark{
+    background-color: #886f4a;
+}
+.input input[type="text"]:focus {
+    outline: none!important;
+}
+.input input[type="text"] {border: none}
