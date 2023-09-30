@@ -12,13 +12,13 @@ For local web development, you need an Apache server and a database connection m
 
 ## App screenshots
 1. Client module
-When the user opens the application, they are a visitor. The presentation section allows for navigation to other pages, as well as viewing samples of marketed products, the advertising panel, and informative announcements in the footer. There is also a product search form based on product name, material, or product code. <br />
+When the user opens the application, they are a visitor. The presentation section allows for navigation to other pages, as well as viewing samples of marketed products, the advertising panel, and informative announcements in the footer. There is also a product search form based on product name, material, or product code. <br/>
 ![](./screenshots/landing.png)
 
-Each product is accompanied by options to view details, add to cart, and leave a review. The catalog is presented below. <br />
+Each product is accompanied by options to view details, add to cart, and leave a review. The catalog is presented below. <br/>
 ![](./screenshots/catalog.png)
 
-To make a rental request, the customer needs to access the Rental Section. When they press the 'Request' button, a form will appear where they can fill in the required information. Next to the 'Total' field, the final price will be dynamically calculated with each generated change <br />
+To make a rental request, the customer needs to access the Rental Section. When they press the 'Request' button, a form will appear where they can fill in the required information. Next to the 'Total' field, the final price will be dynamically calculated with each generated change <br/>
 ![](./screenshots/rental.png)
 
 Basket <br />
@@ -29,7 +29,8 @@ Checkout <br />
 
 My orders <br />
 ![](./screenshots/orders.png) <br />
-2. Admin module
+
+2. Admin module<br/>
 The admin panel provides a tool for adding products from a CSV file to the database and helps visualize graphical reports on the progress of the online store. <br/>
 ![](./screenshots/admin.png)
 "Rental requests from customers for products <br/>
@@ -37,6 +38,6 @@ The admin panel provides a tool for adding products from a CSV file to the datab
 The admin can view details for a specific order, including details such as the ordered products, customer information, order status, billing address, and the chosen payment method. <br/>
 ![](./screenshots/admin-3.png)
 
-3. Other
+3. Other <br/>
 The implementation of the feature to send daily order PDFs via email. <br/>
 ![](./screenshots/pdf%20mail.png)
