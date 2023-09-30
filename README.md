@@ -7,23 +7,23 @@ The app is **divided into two modules**: the **administration module** and the *
 ## Database schema
 ![](./screenshots/db.png)
 
-## Usage
+## App screenshots
 1. Client module
 When the user opens the application, they are a visitor. The presentation section allows for navigation to other pages, as well as viewing samples of marketed products, the advertising panel, and informative announcements in the footer. There is also a product search form based on product name, material, or product code.
 ![](./screenshots/landing.png)
 
-Each product is accompanied by options to view details, add to cart, and leave a review. The catalog is presented below.
+Each product is accompanied by options to view details, add to cart, and leave a review. The catalog is presented below. <br />
 ![](./screenshots/catalog.png)
 
-To make a rental request, the customer needs to access the Rental Section. When they press the 'Request' button, a form will appear where they can fill in the required information. Next to the 'Total' field, the final price will be dynamically calculated with each generated change
+To make a rental request, the customer needs to access the Rental Section. When they press the 'Request' button, a form will appear where they can fill in the required information. Next to the 'Total' field, the final price will be dynamically calculated with each generated change <br />
 ![](./screenshots/rental.png)
 
-Basket
+Basket <br />
 ![](./screenshots/basket.png)
 
-Checkout
+Checkout <br />
 ![](./screenshots/checkout.png)
 
-My orders
+My orders <br />
 ![](./screenshots/orders.png)
 2. Admin module
